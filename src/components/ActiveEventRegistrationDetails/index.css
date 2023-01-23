@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.no-view-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+  color: #64748b;
+  font-weight: 600;
+  flex-grow: 1;
+}
+.no-view-container {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding-top: 40px;
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .no-view-description {
+    font-size: 20px;
+  }
+}
+
+.yet-to-register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 40%;
+  flex-grow: 1;
+}
+
+.yet-to-register-img {
+  width: 70%;
+  height: 40%;
+}
+.yet-to-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  color: #64748b;
+  width: 100%;
+}
+.register-btn {
+  color: #ffffff;
+  background-color: #0967d2;
+  border: none;
+  font-family: 'Roboto';
+  height: 40px;
+  border-radius: 4px;
+  width: 90%;
+}
+.registered-img {
+  width: 100px;
+}
+.registered-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  color: #323f4b;
+  font-weight: 700;
+}
+.registered-container {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.registration-closed-contained {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  flex-grow: 1;
+}
+.registrations-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+
+.registrations-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.registrations-closed-img {
+  width: 90%;
+}
